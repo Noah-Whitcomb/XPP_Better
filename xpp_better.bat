@@ -4,7 +4,6 @@ if errorlevel 1 (
 rem if you installed Xming somewhere else then change the file path in quotes to your path
 start "" "C:\Program Files (x86)\Xming\Xming.exe" :0 -clipboard -multiwindow
 )
-rem tasklist | findstr "Xming.exe"
 
 cd "C:\xppall"
 start "" "xpp.bat" %1
